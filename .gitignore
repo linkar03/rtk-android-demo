@@ -1,0 +1,71 @@
+# Environment
+.env
+.env.local
+.env.production
+
+# Secrets
+secrets/
+*.pem
+*.key
+*.crt
+
+# Data
+data/
+logs/
+*.log
+results/
+*.pos
+*.obs
+*.nav
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Database
+*.db
+*.sqlite3
+postgres_data/
+
+# Node (for web dashboard)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Android
+*.apk
+*.aab
+.gradle/
+local.properties
+
+# Temporary
+tmp/
+temp/
+*.tmp
+*.bak
